@@ -1,0 +1,17 @@
+# ---- 构建产物 ----
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# ---- CubeMX 派生文件（由 .ioc 生成，不必入库）----
+.mxproject
+
+# ---- 编辑器/系统 ----
+.vscode/ipch/
+.vscode/*.log
+.DS_Store
+Thumbs.db
